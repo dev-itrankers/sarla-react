@@ -1,0 +1,227 @@
+/* ===========================hellow section css================================= */
+/* @import url("/node_modules/bulma/css/bulma.css"); */
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  /* font-family: "Rubik", sans-serif; */
+}
+
+body {
+  overflow: hidden;
+}
+/* =================================Hello section=========================== */
+.hello-section,
+.Product-range-section,
+.niche-sector-section,
+.facilities-section,
+.connect-section,
+.map {
+  /* padding: 6% 0; */
+  padding-top: 13rem;
+  height: 100vh;
+}
+.hello-content .is-1 {
+  /* margin-bottom: 9rem !important; */
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+.hello-section .img {
+  background-image: url("/assets/images/home/hello.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 120%;
+  background-position: 85% 30%;
+}
+.hello-content,
+.contact-content {
+  padding: 2% 20% 0 4%;
+}
+
+.hello-content .is-4,
+.Product-range-section .is-4 {
+  width: 34% !important;
+}
+
+.hello-section .is-1 {
+  color: #afca0b !important;
+  font-size: 10rem !important;
+  margin-left: -14rem;
+  font-weight: 900;
+}
+
+.hello-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hello-content a {
+  margin-top: 5rem;
+}
+/* ==================================PRODUCTRANGE==================================== */
+
+.Product-range-section .is-1,
+.niche-sector-section .is-1,
+.facilities-section .is-1,
+.contact-form .is-1 {
+  color: #000 !important;
+  font-size: 6rem;
+  line-height: 1em;
+  font-weight: 900;
+  /* margin-bottom: 11rem !important; */
+}
+.Product-range-section .img {
+  background-image: url("/assets/images/home/product.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Product-range-content,
+.facilities-content {
+  padding-left: 22rem;
+  padding-right: 4rem;
+}
+.Product-range-content h1,
+.facilities-content h1 {
+  min-width: 173%;
+  transform: translate(0%);
+}
+.Product-range-content p,
+.niche-sector-content p,
+.facilities-content p {
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+}
+/* ==========================niche sector section============================== */
+
+.niche-sector-section .img {
+  background-image: url("/assets/images/home/niche.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.niche-sector-content {
+  padding-left: 4rem;
+  padding-right: 15rem;
+}
+.niche-sector-content h1 {
+  transform: translate(-40%);
+}
+/* ============================facilities section================================ */
+
+.facilities-section .img {
+  background-image: url("/assets/images/home/facilities.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ====================connect with us============= */
+.connect-section .img {
+  background-image: url("/assets/images/home/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 25%;
+}
+.connect-section {
+  margin-bottom: 7rem !important;
+  margin-top: 0rem !important;
+}
+.connect-section h1 {
+  transform: translate(-23%);
+}
+/* -----------------------------------------------------media------------------------------------ */
+
+@media screen and (max-width: 480px) {
+  body {
+    height: 80%;
+  }
+  .Product-range-content,
+  .facilities-content {
+    padding-left: 15%;
+    padding-right: 2.4%;
+  }
+  .hello-section {
+    padding-top: 8rem;
+  }
+  .hello-section .is-1 {
+    font-size: 6rem !important;
+    margin-left: -6rem;
+    /* margin-bottom: 4.5rem !important; */
+  }
+  .hello-section .img {
+    background-size: 200% 100%;
+    background-position: 80%;
+  }
+  .hello-content a {
+    margin-top: 0;
+  }
+  .img {
+    background-position: center;
+  }
+  .Product-range-section,
+  .niche-sector-section,
+  .facilities-section,
+  .connect-section {
+    padding-top: 3rem;
+  }
+
+  .Product-range-content p,
+  .niche-sector-content p,
+  .facilities-content p {
+    transform: translate(0%);
+  }
+  .Product-range-section .is-1,
+  .niche-sector-section .is-1,
+  .facilities-section .is-1,
+  .connect-section .is-1 {
+    font-size: 4.5rem !important;
+    /* margin-bottom: 1rem; */
+    /* margin-bottom: 7rem !important; */
+  }
+  .hello-section p,
+  .Product-range-section p,
+  .niche-sector-section p,
+  .facilities-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hello-section,
+  .Product-range-section,
+  .niche-sector-section,
+  .facilities-section,
+  .connect-section,
+  .map {
+    /* padding: 6% 0; */
+    /* padding-top: 1%; */
+    height: 100%;
+  }
+  .contact-content h1 {
+    transform: translate(0%, -17%) !important;
+    min-width: 70%;
+  }
+  .contact-content {
+    padding: 0% 22% 0 8%;
+    margin-top: -3.3rem;
+  }
+  .connect-section .img {
+    min-height: 30vh;
+  }
+  .niche-sector-content h1 {
+    min-width: 17.1rem;
+  }
+  .niche-sector-content {
+    padding-left: 2rem;
+  }
+  .contact-form h1 {
+    transform: translate(-24%);
+  }
+}
+@media screen and (max-width: 1120px) {
+  html {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,16 @@
+/* =================================product page================================= */
+.product-page-niche-section {
+  height: 85vh !important;
+}
+.product-page-niche-section .title {
+  width: 43%;
+  margin-bottom: 2rem !important;
+}
+.product-page-niche-section .niche-sector-content {
+  padding-top: 1rem;
+}
+@media screen and (max-width: 1120px) {
+  html {
+    font-size: 15px;
+  }
+}

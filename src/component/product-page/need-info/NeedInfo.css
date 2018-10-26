@@ -1,0 +1,18 @@
+/* =========================================need info=============================*/
+.further-info {
+  height: 39em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.further-info .title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #008080;
+  margin-bottom: 2rem;
+}
+.further-info .subtitle {
+  width: 618px;
+  font-size: 12px;
+}

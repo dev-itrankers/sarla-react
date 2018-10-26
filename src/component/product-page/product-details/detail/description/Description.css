@@ -1,0 +1,50 @@
+/* ----------------------Description.css----------------- */
+.details-heading {
+  margin-top: 0;
+  margin-bottom: 0.5rem !important;
+}
+
+.det-none {
+  transform: translateX(500%);
+  transition: all 0s ease-in 0s;
+}
+
+.detail {
+  margin-bottom: 2.4rem;
+}
+
+.details-heading {
+  color: rgb(175, 202, 33);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.det-animate-1 {
+  animation: det-animate 0.5s ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+.det-animate-2 {
+  animation: det-animate 0.5s ease-in-out forwards;
+  animation-delay: 200ms;
+}
+
+.det-animate-3 {
+  animation: det-animate 0.5s ease-in-out forwards;
+  animation-delay: 250ms;
+}
+
+@keyframes det-animate {
+  0% {
+    transform: translateX(450%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subtitle {
+    font-size: 17px;
+  }
+}

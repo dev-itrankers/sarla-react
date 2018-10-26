@@ -1,0 +1,77 @@
+/* ----------------detail.csss----------------------- */
+.scroll-bar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* opacity: 0; */
+  transition: all 600ms linear;
+  transform: translateX(100%);
+  background-color: #fff;
+  color: black;
+  z-index: 1;
+  min-width: 65%;
+}
+
+.scroll-bar.active {
+  transform: translateX(0%);
+}
+
+/* -----------------------------close btn----------------------------- */
+
+.close-btn a {
+  font-size: 1rem;
+}
+
+.close-btn {
+  margin: 0.6em;
+  position: absolute;
+  background-attachment: fixed;
+  right: 1em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.fa-times {
+  font-size: 0.9rem;
+  margin-left: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+  .details {
+    overflow-x: scroll;
+  }
+  .scroll-bar {
+    max-width: 100%;
+  }
+}
+
+/* ------------------------------details----------------------------------------------- */
+.details {
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 2% 4% 3% 3%;
+}
+.details .subtitle.is-6 {
+  font-size: 1.4rem;
+}
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .scroll-bar {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .details {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .details {
+    overflow-x: scroll;
+  }
+}

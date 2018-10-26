@@ -1,0 +1,81 @@
+/* ====================contact form=================== */
+
+.ht-35 {
+  min-height: 2rem;
+}
+.wd-325 {
+  max-width: 100%;
+}
+.ht-101 {
+  height: 10rem;
+}
+.ht-330 {
+  height: 33rem;
+}
+.mb-24 {
+  margin-bottom: 2.4rem;
+}
+.mb-29 {
+  margin-bottom: 2.9rem;
+}
+.mt-11px {
+  margin-top: 1.1rem;
+}
+.fz-10 {
+  font-size: 1rem;
+}
+.msg {
+  margin-top: 7rem !important;
+}
+
+.inp label {
+  width: 100%;
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.inp input {
+  width: 100%;
+  position: absolute;
+  top: 1.5rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 0.9rem;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #979797;
+}
+
+.inp .form-label {
+  top: 2rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #616161;
+  margin-bottom: 1rem;
+  position: absolute;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.inp input:focus + span,
+.inp input:valid + span {
+  top: 0.6rem;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .inp input {
+    font-size: 0.7rem;
+  }
+  .footer-submit-btn {
+    padding: 3% 6%;
+    font-size: 0.85rem;
+    max-width: 110px;
+    max-height: 40px;
+  }
+}

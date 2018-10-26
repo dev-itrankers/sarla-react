@@ -1,0 +1,49 @@
+.msg {
+  margin-top: 3rem;
+}
+
+.ht-101 {
+  height: 10rem;
+}
+
+.wd-325 {
+  width: 100%;
+}
+
+.footer-submit-btn {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-no > ul > li:last-child {
+  margin-top: 1rem;
+}
+.phone-no > ul > li:last-child:hover {
+  border-bottom: 1px solid #000;
+}
+.inp-textarea > textarea {
+  background-color: transparent;
+  resize: none;
+  border-color: #979797;
+  padding: 0.9rem 0 0 1rem;
+  font-size: 1rem;
+}
+
+.button:hover {
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+@media screen and (max-width: 480px) {
+  .msg {
+    margin-bottom: 0em !important;
+    margin-top: 6rem;
+  }
+  .inp input {
+    font-size: 1rem;
+  }
+  .mb-24 {
+    margin-bottom: 2rem;
+  }
+}

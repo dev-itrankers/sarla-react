@@ -1,0 +1,97 @@
+/* --------------------------ProductDetail------------------- */
+.prod-details {
+  height: 100%;
+  color: white;
+  background-image: url("/assets/images/product/prod_img.png");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 0% 30%;
+  display: flex;
+  align-items: center;
+}
+.prod-details > .wrapper {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.list:not(:last-child) {
+  margin-bottom: 0 !important;
+}
+.list {
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.list .icon {
+  font-size: 1.8rem;
+  padding: 2.3rem 0px;
+}
+
+.prod-list-ul {
+  overflow-y: hidden;
+  height: 320px;
+}
+.prod-details {
+  position: relative;
+}
+
+.is-fullheight {
+  min-height: calc(100vh - 36px);
+}
+
+/* ------------------------detail-button------------------- */
+
+.det-btn {
+  display: flex;
+  align-items: center;
+}
+
+.det-btn > a {
+  color: white;
+  width: 12.7rem;
+  height: 4.7rem;
+  font-size: 1.5rem;
+}
+
+.det-arrow {
+  margin-left: 1em;
+  animation: move-arrow infinite 0.4s alternate;
+}
+
+.is-outlined:hover {
+  background-color: rgba(116, 93, 93, 0.438) !important;
+  color: #fff !important;
+}
+
+@keyframes move-arrow {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(60%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .det-btn > a {
+    color: white;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 924px) {
+  .prod-details {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .prod-details {
+    height: auto;
+    overflow: hidden;
+  }
+}

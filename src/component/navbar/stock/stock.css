@@ -1,0 +1,15 @@
+.stoke > ul > li:first-child {
+  margin-right: 2rem;
+}
+.green {
+  color: #3f893b;
+}
+.red {
+  color: #fb0c06;
+}
+.navbar ul {
+  display: flex;
+  align-content: space-between;
+  font-family: Rubik-Regular;
+  font-size: 1rem;
+}

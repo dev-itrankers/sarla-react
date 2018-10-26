@@ -1,0 +1,58 @@
+/* ==============================explore button================================  */
+.main-btn {
+  /* border-radius: 5px;
+  font-size: 1.5rem !important;
+  margin-top: 26px;
+  font-weight: 500; */
+}
+.footer-submit-btn {
+  margin-top: 4rem;
+  width: 14rem;
+  min-height: 4rem;
+  background-color: transparent;
+  color: #1d1d1d;
+  border: 1px solid #979797;
+}
+.footer-submit-btn:hover {
+  border-color: #cdcdcd;
+}
+.margin-top-contact {
+  margin-top: 3rem;
+}
+.explore-btn {
+  font-size: 1.5rem !important;
+  min-width: 15rem;
+  min-height: 5rem;
+  background-color: white;
+  color: #008080;
+  border: 1px solid #008080;
+}
+.explore-btn:hover {
+  color: white !important;
+  background-color: #008080;
+  border-color: #008080;
+  transition: all 0.3s ease-in 0s;
+}
+.explore-btn:focus {
+  border: 1px solid #008080;
+  color: #008080;
+}
+.footer-submit-btn:focus {
+  border: 1px solid #979797;
+}
+.button:focus:not(:active),
+.button.is-focused:not(:active) {
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+}
+@media screen and (max-width: 480px) {
+  .explore-btn {
+    font-size: 1rem !important;
+    min-width: 10rem !important;
+    min-height: 4rem;
+    font-weight: 500;
+  }
+  .footer-submit-btn {
+    min-width: 10rem !important;
+  }
+}

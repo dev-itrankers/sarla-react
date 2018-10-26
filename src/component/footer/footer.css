@@ -1,0 +1,118 @@
+footer {
+  height: 466px;
+  padding: 52px 111px;
+  background-color: #f6f6f6;
+}
+.contact-form > h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contact-form {
+  /* margin-top: 1.5rem; */
+}
+.corporate-office,
+.compliance-officer,
+.quick-links {
+  line-height: 15px;
+}
+
+.corporate-office {
+  height: 155px;
+  /* width: 175px; */
+}
+
+.corporate-office > h4,
+.corporate-office p,
+.compliance-officer > h4 {
+  margin-bottom: 12px;
+}
+.compliance-officer > h4,
+.corporate-office > h4 {
+  font-weight: 500;
+}
+.office-details h4 {
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+
+.phone-no {
+  margin-top: 18px;
+}
+
+.compliance-officer {
+  height: 96px;
+  /* width: 175px; */
+  margin-top: 7px;
+}
+
+.corporate-office,
+.compliance-officer,
+.quick-links {
+  line-height: 15px;
+}
+
+.office-details h4 {
+  text-transform: uppercase;
+}
+
+.quick-links {
+  height: 155px;
+  /* width: 175px; */
+  /* margin-left: 81px; */
+}
+
+.corporate-office,
+.compliance-officer,
+.quick-links {
+  line-height: 15px;
+}
+
+.quick-links > ul:first-child {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  /* margin-bottom: 85px; */
+  margin-top: -3%;
+  font-size: 8px;
+}
+
+.footer-contact-heading {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-RmTrasn {
+  transform: translate(0) !important;
+}
+
+@media screen and (max-width: 480px) {
+  footer .columns.is-mobile {
+    display: block;
+  }
+  .office-details {
+    display: flex;
+  }
+  .compliance-officer {
+    margin-top: 0px !important;
+    margin-left: 5rem !important;
+  }
+  .copyright p {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .copyright {
+    padding-top: 30px;
+  }
+  footer {
+    height: auto;
+    padding: 10% 15%;
+  }
+}

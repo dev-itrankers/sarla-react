@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700");
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* ==============================explore button================================  */
+.explore-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: white;
+  color: #008080;
+  border: 1px solid #008080;
+  font-size: 1rem;
+  margin-top: 26px;
+  font-weight: 500;
+}
+.explore-btn:hover {
+  color: white !important;
+  background-color: #008080;
+  border-color: #008080;
+}
+/* -------------------------------from-------------------------- */
+.ht-35 {
+  height: 20px;
+}
+.wd-325 {
+  width: 100%;
+}
+.ht-101 {
+  height: 101px;
+}
+.ht-330 {
+  height: 330px;
+}
+.mb-24 {
+  margin-bottom: 40px;
+}
+.mb-29 {
+  margin-bottom: 29px;
+}
+.mt-11px {
+  margin-top: 11px;
+}
+.msg {
+  margin-bottom: 6em;
+}
+
+.contact-form h1 {
+  transform: translate(-24%);
+}
+.contact-content {
+  padding: 2% 20% 0 4%;
+}
+.inp .form-label {
+  top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 0.6rem;
+  color: #616161;
+  margin-bottom: 1rem;
+  position: absolute;
+  transition: all 0.1s ease-in;
+}
+.inp label {
+  width: 100%;
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+}
+.inp input {
+  width: 100%;
+  position: absolute;
+  top: 1.5 rem;
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 9px;
+}
+.inp input:focus + span,
+.inp input:valid + span {
+  top: -1rem;
+  font-size: 0.6rem;
+}
+.inp-textarea > textarea {
+  border-color: #979797;
+  padding: 0.9rem 0 0 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+textarea {
+  resize: none;
+}
+.submit-btn {
+  margin-top: -1rem !important;
+}
+
+/* ============================media queries========================= */
+
+@media screen and (max-width: 480px) {
+  body {
+    height: 80%;
+  }
+  .Product-range-content,
+  .facilities-content {
+    padding-left: 8%;
+    padding-right: 2.4%;
+  }
+  .hello-section .is-1 {
+    font-size: 3rem !important;
+  }
+  .hello-section .img {
+    background-size: 200% 100%;
+    background-position: 80%;
+  }
+  .Product-range-section .img {
+    background-position: left;
+  }
+  .Product-range-content p,
+  .niche-sector-content p,
+  .facilities-content p {
+    transform: translate(0%);
+  }
+  .Product-range-section .is-1,
+  .niche-sector-section .is-1,
+  .facilities-section .is-1,
+  .connect-section .is-1 {
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem;
+  }
+  .hello-section p,
+  .Product-range-section p,
+  .niche-sector-section p,
+  .facilities-section p {
+    font-size: 0.6rem;
+    margin-bottom: 0;
+  }
+
+  .hello-section,
+  .Product-range-section,
+  .niche-sector-section,
+  .facilities-section,
+  .connect-section,
+  .map {
+    /* padding: 6% 0; */
+    /* padding-top: 1%; */
+    height: 100%;
+  }
+  .explore-btn {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    color: #008080;
+    border: 1px solid #008080;
+    font-size: 0.7rem;
+    margin-top: 26px;
+    font-weight: 500;
+  }
+  .submit-btn {
+    margin-top: 0rem !important;
+  }
+
+  .connect-section .img {
+    height: 40vh;
+  }
+  .inp input {
+    font-size: 0.7rem;
+  }
+  .mb-24 {
+    margin-bottom: 25px;
+  }
+  .contact-form h1 {
+    transform: translate(0%);
+  }
+  .contact-content {
+    padding: 2% 10% 10px 10%;
+  }
+  .msg {
+    margin-bottom: 3em;
+  }
+  .submit-btn {
+    margin-bottom: 1rem;
+  }
+}
